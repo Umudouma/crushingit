@@ -1,0 +1,286 @@
+/*Base Styles*/
+
+body{
+  font-family: 'Source Code Pro', monospace;
+  background-color:#20202c;
+  color:#ffffff;
+}
+
+/*Grid setup*/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+    height:350px;
+}
+
+.third-width {
+    width: 399px;
+    float: left;
+}
+
+.top-banner{
+  height:74px;
+  background-color: #1f202b;
+}
+
+/*************Style Header**************/
+
+/*Style ubong...web developer*/
+.top-banner h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/*Style background image*/
+header {
+    height:800px;
+    background:url("../img/hero-background.png");
+    background-size: 100% 100%; /*get your background image to fit*/
+}
+
+/*Style main heading -"let's code..."*/
+header h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    padding-top: 385px;
+}
+
+/*Style the word "code" in h1*/
+header h1 span{
+  color: #fa0075;
+}
+
+/*************Style Navigation**************/
+
+/*Style navigation pane*/
+nav {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+/*Align navigation elements side by side*/
+nav ul li{
+  display: inline-block;
+}
+
+/* Style navigation elements*/
+nav ul li a{
+  text-decoration: none;
+  padding-right: 45px;
+  color:#ffffff;
+}
+
+/**************Style my portfolio section**************/
+
+/*Style the main heading*/
+#my-portfolio h3{
+  padding-top: 55px;
+  padding-bottom: 110px;
+  text-align: center;
+  font-size: 36px;
+  color: #f70073;
+}
+
+/*Assign portforlio section height*/
+#my-portfolio{
+  height: 1500px;
+}
+
+/*Align each portfolio section*/
+.rogue-website,.jubilee-website,.recipe-website{
+  float: right;
+}
+
+/*style rogue-pickings website section*/
+.rogue-website h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-top:1px;
+}
+
+.rogue-website h4 span{
+  font-weight: lighter;
+}
+
+.rogue-website p{
+  padding-right: 100px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 32px;
+}
+
+/*style jubilee website section*/
+.jubilee-website{
+  padding-top: 105px;
+  padding-bottom: 100px;
+}
+
+.jubilee-website h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-top:1px;
+}
+
+.jubilee-website h4 span{
+  font-weight: lighter;
+}
+
+.jubilee-website p{
+  padding-right: 100px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 32px;
+}
+
+/*style recipe website section*/
+.recipe-website h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-top:1px;
+}
+
+.recipe-website h4 span{
+  font-weight: lighter;
+}
+
+.recipe-website p{
+  padding-right: 100px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 32px;
+}
+
+.recipe-website{
+  padding-bottom: 100px;
+}
+
+/*************************style about me section***********************/
+
+/*Assign about-me section height*/
+#about-me{
+  height: 550px;
+  margin-top: 100px;
+}
+
+/*Style background image*/
+#about-me{
+  background-color: #b6b4b0;
+  border: 30px solid #1f202b;
+  background-size: cover;
+}
+
+/*Style main heading*/
+#about-me h3{
+  padding-bottom: 75px;
+  text-align: center;
+  font-size: 36px;
+  color: #f70073;
+  margin-top: 10px;
+}
+
+/*Style paragraph*/
+#about-me p span{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color:#ffffff;
+  font-weight:bold;
+
+}
+
+#about-me p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top:auto;
+}
+
+#about-me img{
+  border: 3px solid #1f202b;
+}
+
+/**********************style your footer section********************/
+
+#contact{
+  height: 400px;
+}
+
+/*Style main heading*/
+#contact h3{
+  padding-top: 150px;
+  text-align: center;
+  font-size: 36px;
+  color: #f70073;
+}
+
+/*Style sub-heading for contacts*/
+#contact-number span{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+}
+
+/*Style contact information*/
+#contact-number p{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+  text-align: center;
+}
+
+/*Style sub-heading for social media*/
+#social-media span{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  text-align:center;
+}
+
+/*Style social media icons*/
+#social-media ul li {
+  display:inline-block;
+  padding-left: 50px;
+}
+
+#social-media ul {
+  background-color: #20202c;
+}
+
+/*centralise social media icons*/
+#social-media p{
+  text-align: center;
+}
+
+/*Style sub-heading for social media*/
+#meet-me span{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
+  text-align:center;
+}
+
+/*Style contact address*/
+#meet-me p{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 35px;
+}
+
+/*Style copyright message*/
+.copy-right p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 15px;
+  clear:both;
+}
